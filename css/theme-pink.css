@@ -1,0 +1,65 @@
+/* =========================================================
+   THEME: Pink & White  (override layer — loaded last)
+   Accent pink : #d6588a
+   Deep rose   : #b23d68 / #8c2f52  (dark sections, white text)
+   ========================================================= */
+
+/* --- Splashscreen --- */
+#splashscreen .splashscreen-bg {
+  background-color: #8c2f52;
+}
+#splashscreen {
+  background: linear-gradient(135deg, #b23d68 0%, #8c2f52 100%);
+}
+
+/* BUKA button */
+.btn-4 {
+  background: #d6588a !important;
+}
+.btn-4:hover,
+.btn-4:active {
+  background: #b23d68 !important;
+}
+
+/* --- Header cover overlay (rose fade instead of black) --- */
+.fh5co-cover .overlay {
+  background: linear-gradient(0deg, rgba(140, 47, 82, 0.95) 0%, rgba(140, 47, 82, 0) 100%);
+}
+
+/* --- Event section (Akad / Resepsi) --- */
+#fh5co-event .overlay {
+  background: rgba(178, 61, 104, 0.82);
+}
+
+/* --- Maps button --- */
+.btn-maps:hover {
+  background: #d6588a;
+  border-color: #d6588a;
+}
+
+/* --- Gift / Tanda Kasih --- */
+.confirm-wa {
+  background: #d6588a;
+}
+.confirm-wa:hover {
+  background: #b23d68;
+}
+.payments .payment button {
+  color: #d6588a;
+  border-color: #d6588a;
+}
+
+/* Confirmation modal */
+.modal-confirmation .modal-confirmation__content {
+  background: #8c2f52;
+}
+
+/* --- Cerita Kita timeline accent --- */
+.our-story li h3 {
+  color: #b23d68;
+}
+
+/* --- Maps section heading --- */
+#fh5co-maps {
+  background: #fff;
+}
